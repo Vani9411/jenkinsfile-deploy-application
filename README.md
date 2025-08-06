@@ -16,7 +16,10 @@ In this project, we:
 
 
 3. Integrate Jenkins with Docker and Docker Hub for a fully automated CI/CD workflow.
-   
+
+
+
+
 ---
 
 🛠️ Tools & Technologies
@@ -30,6 +33,8 @@ Docker Hub – Container registry for storing images
 GitHub – Source code repository for the project
 
 Linux (Ubuntu/CentOS) – Jenkins server environment
+
+
 
 ---
 
@@ -59,19 +64,26 @@ Install Docker Pipeline Plugin in Jenkins
 
 Create a Docker Hub account and generate credentials in Jenkins
 
+
+
 ---
 
 2️⃣ Configure Jenkins Credentials
 
 1. Go to Jenkins Dashboard → Manage Jenkins → Credentials
-2. 
-3. Add Docker Hub username & password
+
+
+2. Add Docker Hub username & password
 
 ID: dockerhub-credentials
 
 Username: <your-dockerhub-username>
 
 Password: <your-dockerhub-password>
+
+
+
+
 
 ---
 
