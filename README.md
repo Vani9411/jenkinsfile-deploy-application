@@ -123,10 +123,10 @@ pipeline {
 
     post {
         success {
-            echo "🎉 Docker image successfully pushed to Docker Hub!"
+            echo " Docker image successfully pushed to Docker Hub!"
         }
         failure {
-            echo "❌ Something went wrong. Check the logs."
+            echo " Something went wrong. Check the logs."
         }
     }
 }
